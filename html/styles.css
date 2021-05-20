@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(pic.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:contain;
+
+}
+.cool {
+    float: right;
+    margin-top: 30px;
+    margin-right: 5px;
+
+}
+.cool li {
+    display: inline-block;
+
+}
+.cool li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+.cool li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-left: 250px;
+}
+.main {
+    max-width: 1200px;
+    margin-top: auto;
+    
+}
+.cool li.active a{
+    background-color: aliceblue;
+    color: black;
+}
+.topic{
+    color: whitesmoke;
+    position: absolute;
+    top: 40%;
+    left: 23%;
+   
+}
+.topic h1{
+    font-size: 70px;
+    font-family: serif;
+}
+.topic h4{
+    font-size: 25px;
+}
+h1.invisible {
+    visibility: hidden;
+}
+    
+}
+table, tr{
+    border : 1px solid black;
+    
+}
+table{
+    width: 100%;
+}
+tr a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    transition: 0.4s ease;
+}
+td{
+    text-align: center;
+}
+tr{
+    height: 70px;
+}
+tr a:hover{
+    background-color: black;
+    color:white;
+}
+h1.invisiblee {
+    visibility: hidden;
+}
+h1.mainh{
+    color: black;
+    text-align: center;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div img {
+    float: left;
+    margin-left: 25px;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    transition: 0.4s ease;
+}
+div a img:hover{
+    opacity: 0.4;
+}
+pre{
+    font-size: 35px;
+}
+.d img{
+    float: left;
+    margin-left: 25px;
+    height: 400px;
+    width: 700px;
+    border: 1px solid black;
+}
+.e{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 700px;
+}
+
+.f a img{
+    height: 70px;
+    width: 70px;
+}
+.g img{
+    width: 1500px;
+height: 300px;
+}
